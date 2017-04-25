@@ -1,4 +1,7 @@
-# api documentation for  [hummus (v1.0.75)](http://pdfhummus.com/)  [![npm package](https://img.shields.io/npm/v/npmdoc-hummus.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-hummus) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-hummus.svg)](https://travis-ci.org/npmdoc/node-npmdoc-hummus)
+# npmdoc-hummus
+
+#### basic api documentation for  [hummus (v1.0.75)](http://pdfhummus.com/)  [![npm package](https://img.shields.io/npm/v/npmdoc-hummus.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-hummus) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-hummus.svg)](https://travis-ci.org/npmdoc/node-npmdoc-hummus)
+
 #### Create, read and modify PDF files and streams
 
 [![NPM](https://nodei.co/npm/hummus.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hummus)
@@ -82,7 +85,8 @@
         "install": "node-pre-gyp install --fallback-to-build",
         "test": "mocha -R tap ./tests/*.js --timeout 15000"
     },
-    "version": "1.0.75"
+    "version": "1.0.75",
+    "bin": {}
 }
 ```
 
